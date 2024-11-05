@@ -1,6 +1,6 @@
 {
-  "name": "utools-vscode",
-  "version": "v1.5.2",
+  "name": "utools-cursor",
+  "version": "v0.0.1",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -9,6 +9,10 @@
     "utools-api-types": "^2.6.4"
   },
   "dependencies": {
+    "typescript": "^5.6.3",
     "utools-helper": "^2.2.0"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }

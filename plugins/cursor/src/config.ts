@@ -23,12 +23,12 @@ export const config: IConfigItem[] = [
     only_current_machine: true,
   },
   {
-    name: "code",
-    label: "code",
+    name: "cursor",
+    label: "cursor",
     type: "input",
-    placeholder: "vscode 命令",
+    placeholder: "cursor 命令",
     required: true,
-    default: "code",
+    default: "cursor",
     only_current_machine: true,
   },
   {
@@ -39,7 +39,7 @@ export const config: IConfigItem[] = [
     only_current_machine: true,
     default: join(
       utools.getPath("appData"),
-      "Code",
+      "Cursor",
       "User",
       "globalStorage",
       "state.vscdb"
@@ -51,7 +51,7 @@ export const config: IConfigItem[] = [
     type: "input",
     required: true,
     only_current_machine: true,
-    default: join(utools.getPath("appData"), "Code", "storage.json"),
+    default: join(utools.getPath("appData"), "Cursor", "storage.json"),
   },
   {
     name: "timeout",

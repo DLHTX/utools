@@ -5,7 +5,7 @@ import { ExecOptions, exec } from "child_process";
 import { GetFiles } from "./files";
 
 export class VSCode implements Plugin {
-  code = "vsc";
+  code = "cursor";
   _storage: string;
   isCtrl = false;
   delay = 100;
@@ -150,7 +150,7 @@ export class VSCode implements Plugin {
       return await this.search("");
     }
 
-    let code = Setting.Get("code");
+    let code = Setting.Get("cursor");
     if (code.trim().includes(" ")) code = `"${code}"`;
 
     let cmds: String[] = [code];

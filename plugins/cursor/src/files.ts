@@ -27,7 +27,7 @@ export async function GetFiles(path: string) {
   let res = results[0].values.toString();
   if (!res)
     throw new Error(
-      "数据获取失败, 请检查 vsc-setting 配置, <br/> 注意当前仅在 vscode 1.64 版本进行过测试"
+      "数据获取失败, 请检查 cursor-setting 配置, <br/> 注意当前仅在 vscode 1.64 版本进行过测试"
     );
   let data = JSON.parse(res) as Recent;
 

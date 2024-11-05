@@ -1,0 +1,24 @@
+{
+  "name": "830ef6d0",
+  "pluginName": "cursor",
+  "description": "快速搜索cursor历史项目并且在cursor中打开",
+  "version": "v0.0.1",
+  "preload": "dist/preload.js",
+  "author": "Koray",
+  "homepage": "",
+  "logo": "icon/icon.png",
+  "features": [
+    {
+      "code": "cursor",
+      "explain": "vscode历史项目搜索",
+      "cmds": ["cursor"],
+      "icon": "icon/icon.png"
+    },
+    {
+      "code": "cursor-setting",
+      "explain": "cursor 历史搜索配置信息",
+      "cmds": ["cursor-setting"],
+      "icon": "icon/icon.png"
+    }
+  ]
+}

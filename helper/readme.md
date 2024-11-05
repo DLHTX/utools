@@ -40,7 +40,7 @@ function getStorageID(): string {
 
 export class Storage implements Plugin {
   mode: TplFeatureMode = "none";
-  code = "vsc-storage";
+  code = "cursor-storage";
   enter(action: Action) {
     let item = utools.db.get<string>(getStorageID());
     if (!item) {
