@@ -1,6 +1,6 @@
 {
   "name": "830ef6d0",
-  "pluginName": "cursor",
+  "pluginName": "cursor-open",
   "description": "快速搜索cursor历史项目并且在cursor中打开",
   "version": "v0.0.1",
   "preload": "dist/preload.js",
